@@ -60,6 +60,12 @@
             <span>2026 Batch</span>
           </div>
 
+          <div class="research-topic-banner reveal">
+            <span class="research-topic-tag"><i class="fa-solid fa-graduation-cap"></i> Research Project Title</span>
+            <h2 class="research-topic-title">OrchidCompanion : AI Powered Educational Companion for Home Orchid Care
+            </h2>
+          </div>
+
           <h1 class="display reveal">
             <span class="l">AI-Powered Companion</span>
             <span class="l">for
@@ -267,6 +273,79 @@
             readings eliminates nutrient-burn misdiagnoses and forbids phytotoxic chemical treatments.
           </p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       LITERATURE REVIEW
+       ============================================================ -->
+  <section class="section lit-review-section" id="literature-review">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Academic Background</span>
+        <h2 class="title">
+          LITERATURE REVIEW
+        </h2>
+      </div>
+
+      <div class="lit-single-card reveal">
+        <p>
+          The technological evolution of smart orchid farming has primarily focused on commercial net farms and
+          greenhouse environments. Existing integrated systems demonstrate the potential of integrating Internet of
+          Things (IoT) sensors with machine learning to automate micro climates, mist irrigation, UV-C disease
+          treatments, and fertilizer schedules. Automated smart farming implementations using fuzzy logic on micro
+          controllers have also been established to control environmental actuators. These systems are designed for
+          commercial greenhouses or net farms that hold controlled structures and substantial capital budgets. They do
+          not provide lightweight or cost-effective information for home orchid growers who operate in unmanaged
+          household micro climates without expensive infrastructure.
+        </p>
+
+        <p>
+          In the domain of orchid identification, existing literature presents several critical methodological
+          constraints. Early approaches classified floricultural species using hand-crafted feature extractors such as
+          Histogram of Oriented Gradients (HOG) and Color Space Transformations paired with Support Vector Machines
+          (SVM). Single stage object detection architectures, specifically the You Only Look Once (YOLO) framework able
+          to simultaneously performing spatial localization and multi-organ categorization. However, existing research
+          rarely benchmarks recent lightweight detection on non flowering vegetative structures such as Dendrobium
+          jointed canes, Oncidium pseudobulbs, and Phalaenopsis monopodial crowns. This research addresses these
+          limitations by evaluating optimized orchid identification.
+        </p>
+
+        <p>
+          In the domain of flowering prediction, existing research demonstrates separate applications of computer
+          vision, IoT monitoring, and developmental modelling, but important methodological gaps remain. A deep learning
+          based greenhouse system was developed for recognizing orchid growth status while integrating environmental
+          monitoring, demonstrating the feasibility of automated stage recognition. Probabilistic growth modeling across
+          distinct states has been established, however their probabilistic model focuses on estimating the distribution
+          of plants across states rather than predicting the duration of individual transitions toward flowering.
+          Microclimatic monitoring incorporating temperature, humidity, and light sensing was applied into Dendrobium
+          cultivation, but primarily used these variables for environmental control rather than flowering-time
+          prediction. Furthermore, Dendrobium research has demonstrated that environmental treatments over periods of
+          days can influence floral transition and development. Therefore, existing approaches do not jointly use the
+          current visual stage and recent environmental history to estimate each remaining stage duration. The proposed
+          method addresses this gap.
+        </p>
+
+        <p>
+          Recent studies show that deep learning models, such as Convolutional Neural Networks (CNNs) and object
+          detection algorithms, can effectively identify plant diseases by analyzing visual features including lesion
+          color, texture, and affected regions. However, nutrient deficiencies may produce symptoms similar to diseases,
+          making visual diagnosis alone potentially unreliable. Ensemble methods such as Weighted Boxes Fusion and
+          explainable AI techniques like Grad-CAM can improve detection reliability and interpretability. Therefore,
+          integrating AI-based disease detection with IoT based nutrient and environmental monitoring can provide more
+          accurate diagnosis.
+        </p>
+
+        <p>
+          Nutrient requirement studies indicate significant effects of NPK ratios on vegetative growth and flowering.
+          Evaluations of varying nitrogen and potassium concentrations in Dendrobium cv. Sonia 17 demonstrated notable
+          variations in growth and yield characteristics. Evaluations of varying nitrogen and potassium concentrations
+          in Dendrobium cv. Sonia 17 demonstrated notable variations in growth and yield characteristics and reported
+          variations in growth and yield characteristics, further demonstrating the importance of appropriate nutrient
+          composition. These findings support the integration of growth-stage information with NPK monitoring to provide
+          stage-specific fertilizer recommendations in the proposed system.
+        </p>
       </div>
     </div>
   </section>
@@ -735,7 +814,6 @@
           <i class="fa-solid fa-file-contract" style="margin-right: 8px"></i>Research Papers &amp; Reports
         </h4>
         <div class="doc-grid">
-          <!-- Topic Assessment Form -->
           <a href="https://drive.google.com/drive/folders/1cViplKP-cjczo1X6yxMlBo3D_MDR3hwk?usp=sharing"
             class="doc reveal" data-hover data-slot="topic-assessment-form" target="_blank" rel="noopener noreferrer">
             <span class="doc-tag">PDF</span>
@@ -744,7 +822,6 @@
             <span class="slot-badge"><i class="fa-brands fa-google-drive"></i> Google Drive</span>
           </a>
 
-          <!-- Project Proposal Report -->
           <a href="https://drive.google.com/drive/folders/1jz7CYNR8CtlvY_77C_2oMUQewevGS0Ol?usp=sharing"
             class="doc reveal" data-hover data-slot="project-proposal-report" target="_blank" rel="noopener noreferrer">
             <span class="doc-tag">PDF</span>
@@ -770,15 +847,36 @@
             <div class="doc-t">Research Paper</div>
             <span class="slot-badge"><i class="fa-brands fa-google-drive"></i> Google Drive</span>
           </a>
-
+        </div>
+        <div class="doc-grid">
           <!-- Source Code -->
           <a href="https://github.com/OrchidCompanion/R26-SE-006" class="doc reveal" data-hover data-slot="source-code"
             target="_blank" rel="noopener noreferrer">
             <span class="doc-tag">GIT</span>
             <div class="doc-ic"><i class="fa-brands fa-github"></i></div>
-            <div class="doc-t">Source Code</div>
+            <div class="doc-t">Git Repository (Checklist 01)
+            </div>
             <span class="slot-badge"><i class="fa-solid fa-code-branch"></i> GitHub Repo</span>
           </a>
+
+          <!-- UI/UX Demo Video -->
+          <a href="https://drive.google.com/drive/folders/1soYF58bwQflRKqM9TuRN8SNjaKvAClnp?usp=sharing"
+            class="doc reveal" data-hover data-slot="topic-assessment-form" target="_blank" rel="noopener noreferrer">
+            <span class="doc-tag">PDF</span>
+            <div class="doc-ic"><i class="fa-solid fa-file-lines"></i></div>
+            <div class="doc-t">UI/UX Demo Video (Checklist 02)</div>
+            <span class="slot-badge"><i class="fa-brands fa-google-drive"></i> Google Drive</span>
+          </a>
+
+          <!-- Deployment Report -->
+          <a href="https://drive.google.com/drive/folders/1loWETE6bIRpZmpAWpkisf3-Sxaocp41s?usp=sharing"
+            class="doc reveal" data-hover data-slot="project-proposal-report" target="_blank" rel="noopener noreferrer">
+            <span class="doc-tag">PDF</span>
+            <div class="doc-ic"><i class="fa-solid fa-book-open"></i></div>
+            <div class="doc-t">Deployment Report (Checklist 03)</div>
+            <span class="slot-badge"><i class="fa-brands fa-google-drive"></i> Google Drive</span>
+          </a>
+
         </div>
       </div>
 
